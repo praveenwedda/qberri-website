@@ -1,0 +1,44 @@
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 10rem 5vw 5rem;
+    min-height: 100vh;
+}
+
+.header {
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.header p {
+    margin-top: 1rem;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.panel {
+    padding: 4rem;
+}
+
+.panel h2 {
+    font-size: 2.5rem;
+    color: var(--secondary);
+    font-family: var(--font-heading);
+    margin-bottom: 2rem;
+}
+
+.panel p {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .panel {
+        padding: 2rem;
+    }
+}

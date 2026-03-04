@@ -1,0 +1,72 @@
+.main {
+  width: 100%;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 2rem 0;
+}
+
+.heroActions {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+}
+
+.secondaryBtn {
+  background: transparent !important;
+  border: 1px solid var(--secondary) !important;
+  box-shadow: none !important;
+  transition: all 0.3s ease !important;
+}
+
+.secondaryBtn:hover {
+  background: rgba(0, 240, 255, 0.1) !important;
+}
+
+.servicesTeaser {
+  padding: 8rem 0;
+}
+
+.servicesTeaser h2 {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  padding: 3rem 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-top: 1px solid rgba(0, 240, 255, 0.2);
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px -20px var(--primary);
+}
+
+.card h3 {
+  color: var(--secondary);
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: var(--font-heading);
+}
+
+.card p {
+  opacity: 0.8;
+  line-height: 1.6;
+}
